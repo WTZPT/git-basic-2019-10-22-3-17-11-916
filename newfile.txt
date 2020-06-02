@@ -3,3 +3,10 @@ Create a new file called newfile.txt, add some contents to it and push it to Git
 Add some content.
 
 Add some content on the GitHub.
+
+add 将当前工作区修改的内容添加到暂存区
+commit 将暂存区的修改内容提交到本地仓库
+push 将本地仓库版本推送到远程服务器
+
+比较保险推送流程：
+add --> commit --> pull(解决与远程仓库冲突) --> push
